@@ -11,7 +11,7 @@ const MainConts = () => {
   // fetch(`https://webstoryboy.github.io/site-youtube01/src/utils/subTest.json`)
   useEffect(() => {
     fetch(
-      `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=48&q=${selectCategory}&type=video&key=${process.env.REACT_APP_YOUTUBE_API_KEY}`
+      `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=48&q=${selectCategory}&type=video&key=AIzaSyAys6Kt7lJa-dj-2i4zK4pZOhE0BXUdd-Q`
     )
       .then((response) => response.json())
       .then((result) => {
